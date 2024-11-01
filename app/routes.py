@@ -1,9 +1,9 @@
 from fastapi import APIRouter, HTTPException, File, UploadFile, Depends
 from fastapi.responses import JSONResponse
 import pandas as pd
-from database import collection
-from models import UpdatePhoneRequest, MessageResponse, RecordResponse
-from utils import convert_object_id, validate_object_id
+from .database import collection
+from .models import UpdatePhoneRequest, MessageResponse, RecordResponse
+from .utils import convert_object_id, validate_object_id
 from bson import ObjectId
 
 router = APIRouter()
