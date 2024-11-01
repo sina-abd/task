@@ -1,0 +1,16 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directory
+venv/
+# Pycharm files
+.idea/
+
+# Database files
+dump/
+*.archive
+data/
+mongod.lock
+*.db
