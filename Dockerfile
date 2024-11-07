@@ -15,5 +15,6 @@ COPY ./app /code/app
 
 COPY .env /code/.env
 
+EXPOSE 80
 
 CMD ["fastapi", "run", "app/main.py", "--port", "80"]
